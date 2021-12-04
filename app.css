@@ -6,13 +6,15 @@ body {
     flex-direction: column;
 }
 
+/* Header/Nav styling */
+
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background: #1f2937;
     height: 50px;
-    padding: 8px 16px;
+    padding: 8px 88px;
 }
 
 .logo   {
@@ -27,10 +29,13 @@ nav ul {
     margin: 0;
     display: flex;
     align-items: center;
+    font-size: 18px;
+    font-weight: 200;
+    color:white ;
 }
 
 nav ul li {
-    margin: 0 16px;
+    padding: 0 16px;
 }
 
 nav a {
@@ -38,7 +43,52 @@ nav a {
     color: white;
 }
 
-.nav-link   {
-    font-weight: 200;   
+.hero-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #1f2937;
+    padding: 72px 88px;
+    gap: 24px;
+    height: 300px;
+}
+
+.hero-left, .hero-right {
+    width: 50%;
+}
+
+/* Hero box styling */
+
+.hero-right {
+text-align: center;
+border: 1px solid rgb(206, 206, 206);
+background-color: rgb(206, 206, 206) ;
+height: 250px;
+border-radius: 4px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.hero-subtext {
+    font-size: 18px;
     color: white;
 }
+
+.hero-btn {
+    padding: 8px 24px;
+
+border-radius: 4px;    background-color: #3882f6;
+    color: white;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
