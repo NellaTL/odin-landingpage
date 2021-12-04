@@ -168,7 +168,7 @@ blockquote {
 .cta-container {
     display: flex;
     flex-direction: column;
-    padding: 72px 88px;
+    padding: 64px 88px;
     flex: 1;
 }
 
@@ -195,4 +195,16 @@ blockquote {
     color: white;
     border: 2px solid white;
     background-color: #3882f6;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+    color: white;
+    height: 50px;
+    padding: 8px 88px;
 }
